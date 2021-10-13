@@ -7,8 +7,8 @@
     "qod": "./index.js"
   },
   "scripts": {
-    "install-cli": "npm i -g .",
-    "uninstall-cli": "npm un ."
+    "qod-i": "npm install -g",
+    "qod-un": "npm uninstall -g"
   },
   "repository": {
     "type": "git",
