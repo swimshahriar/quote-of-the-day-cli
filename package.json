@@ -1,0 +1,29 @@
+{
+  "name": "quote-of-the-day-cli",
+  "version": "1.0.0",
+  "description": "this tool gives a quote everyday",
+  "bin": {
+    "qod": ".bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swimshahriar/quote-of-the-day-cli.git"
+  },
+  "keywords": [
+    "qod",
+    "cli-tool"
+  ],
+  "author": "shahriar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swimshahriar/quote-of-the-day-cli/issues"
+  },
+  "homepage": "https://github.com/swimshahriar/quote-of-the-day-cli#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "chalk": "^4.1.2"
+  }
+}
