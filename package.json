@@ -2,11 +2,13 @@
   "name": "quote-of-the-day-cli",
   "version": "1.0.0",
   "description": "this tool gives a quote everyday",
+  "main": "index.js",
   "bin": {
-    "qod": ".bin/index.js"
+    "qod": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-cli": "npm i -g .",
+    "uninstall-cli": "npm un ."
   },
   "repository": {
     "type": "git",
